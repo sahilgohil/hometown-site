@@ -1,0 +1,135 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+
+body {
+    margin: 0;
+    text-align: center;
+    color: #ffffff;
+    font-family: 'Spinnaker', sans-serif;
+}
+
+img {
+    width: 100px;
+}
+.header{
+    color: #ecf8f8;
+    background: url("images/Sydney.jpg");
+    width: 720px;
+    height: 345px;
+    background-size: cover;   
+    margin-left: auto;
+    margin-right: auto;
+   
+    
+     
+}
+#title
+{
+    margin-top: 0;
+    padding-top: 120px;
+    
+    
+}
+span, .text
+{
+     text-shadow: 1px 1px 1px #17c3b2;
+}
+#title-disc{
+     text-shadow: -3px -3px 3px #17c3b2;
+    font-size: 18px;    
+}
+
+#destination-section{
+    color: #4d194d;
+    margin-top: 0;
+    background-color: #e8c2ca;
+    width: 720px;
+    height: 380px;
+    border: 1px solid #e8c2ca;
+    margin-left: auto;
+    margin-right: auto;
+    
+
+}
+
+
+
+.destination-img{
+    
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+}
+
+.border-class{
+    border: 3px solid black;
+}
+
+#travel-card{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.text-title{
+    font-size: 16px;
+}
+p{
+    font-size: 14px;
+}
+#dest-head{
+    margin-bottom: 34px;
+    text-shadow: 1px 1.4px 1px #ffffff;
+
+}
+
+#guide-section{
+    
+    width: 720px;
+    height: 395px;
+    background-color: #ffa62b;
+    margin: 0 auto; 
+    border: 0.1px solid #ffa62b;
+}
+
+.guide-title{
+    margin-top: 50px;
+    font-size: 24px;
+    margin-bottom: 14px;
+    text-shadow: 3px 3px 4px #240046;
+}
+#author{
+      text-shadow: 3px 3px 4px #240046;  
+}
+
+#card-div{
+    width: 400px;
+    height: 300px;
+    background-color: #17c3b2;
+    margin: 50px auto;
+    border-bottom: 10px solid #227c9d;
+    border-radius: 20px;
+}
+#avatar{
+
+    width: 180px;
+    height: 248px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    margin-right: 7px;
+}
+.avatar-p{
+    font-size: 16px;
+    margin-bottom: 26px;
+}
+#card-inside{
+    display: flex;
+    justify-content: space-around;
+}
