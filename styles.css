@@ -133,3 +133,14 @@ p{
     display: flex;
     justify-content: space-around;
 }
+
+#opera:hover,#tower:hover,#mountain:hover{
+    width: 140px;
+    height: 140px;
+    border: 2px solid #ffa62b;
+}
+#avatar:hover{
+    width: 190px;
+    height: 260px;
+    border: 3px solid #ffa62b;
+}
